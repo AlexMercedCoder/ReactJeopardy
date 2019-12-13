@@ -1,0 +1,27 @@
+body {background-color: lightpink;}
+
+.App {
+    background-color: steelblue;
+    width: 90%;
+    margin: 25px auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.App h1, h3 {background-color: dimgray; color: white; width: 50%; margin: 20px auto; padding: 10px;
+    border-radius: 15px; font-size: 2em;}
+
+.scoreboard div {font-size: 1.6em}
+
+.question p {font-size: 1.5em;}
+
+.butStyle {margin: 10px; background-color: cadetblue;}
+
+.score {
+    display: flex; justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+     .App h1, h3, p, h4, button {font-size: 120%;}
+}
